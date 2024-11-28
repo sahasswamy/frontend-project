@@ -1,4 +1,4 @@
-d apiVersion: apps/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-dp
@@ -26,4 +26,3 @@ spec:
         - name: my-volume
           persistentVolumeClaim:
             claimName: my-pvc
-#new line added
